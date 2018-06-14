@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package exerciciosprog2;
 import java.util.Scanner;
 
@@ -11,17 +7,11 @@ class Pessoa{
     public float altura;
     public float peso;
 }
-/**
- *
- * @author bazei
- */
+
 public class CadastroDePessoa {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+
         Scanner t=new Scanner(System.in);
         Pessoa ser[]=new Pessoa[2];
         ser[0]=new Pessoa();
